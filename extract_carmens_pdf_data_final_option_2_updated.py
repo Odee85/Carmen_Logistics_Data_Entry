@@ -5,8 +5,8 @@ from datetime import datetime
 """ Change location of file when the input and output 
 name or location of the file changes """
 
-file_name = "01_Oct_Transactions/TransactionReport-231013072128.pdf"
-output_filename = "01_Oct_Transactions/TransactionReport-231013072128_gp1.csv"
+file_name = "01_TestFiles/TransactionReport-230710110034.pdf"
+output_filename = "01_TestFiles/TransactionReport-230710110034.csv"
 
 
 def get_vendor_name(vendor_name_components):
@@ -19,6 +19,7 @@ def get_vendor_name(vendor_name_components):
     """
 
     # print(vendor_name_components)
+    # Testing
 
     num_index = 0
     for item in vendor_name_components:
